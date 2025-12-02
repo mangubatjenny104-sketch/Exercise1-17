@@ -1,0 +1,6 @@
+1.	Display the sum of age of employees working at Bignet.
+2.	How would you calculate the total of years of service the employees of Bignet have in the company?
+SELECT SUM(yos) FROM employee_data;
+4.	What do you understand from the following statement?
+select (SUM(perks) / SUM(salary) * 100) from employee_data
+It will compute the total of perks relative to total salary.
