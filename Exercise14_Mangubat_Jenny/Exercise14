@@ -1,0 +1,9 @@
+1.	Our CEO falls inlove with the petite Web Developer, Anamika Pandit. Show now wants her last name to be change to ‘Sharma’. 
+UPDATE employee_data SET l_name = 'Sharma' WHERE f_name = 'Anamika' AND l_name = 'Pandit';
+SELECT ids, f_name, l_name, title FROM employee_data WHERE f_name = 'Anamika';
+2.	All multimedia Programmers now want to be called Multimedia Specialists.
+UPDATE employee_data SET title = 'Multimedia Specialist' WHERE title = 'Multimedia Programmer';
+SELECT ids, f_name, l_name, title FROM employee_data WHERE title = 'Multimedia Specialist';
+3.	After his marriage, the CEO gives everyone a raise. Increase the salaries of all employees (except the CEO) by $ 100000.
+UPDATE employee_data SET salary = salary + 100000 WHERE title != 'CEO';
+SELECT ids, f_name, l_name, title, salary FROM employee_data ORDER BY salary DESC;
