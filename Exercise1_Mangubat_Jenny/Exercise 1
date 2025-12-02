@@ -1,0 +1,7 @@
+5.	Give to forms of the SELECT statement that will list all the data in employee_data table
+select * from employee_data;
+     select f_name, l_name, title, age, years_of_service, salary, perks, email from employee_data;
+7.	Write the statement for listing data from salary, perks and yos columns of employee_data table.
+select salary, perks, years_of_service  from employee_data;
+8.	How can you find the number of rows in a table using the SELECT statement?
+select count(*)from employee_data;
