@@ -1,0 +1,10 @@
+1.	Write the SELECT statement to extract the ids of employees who are more than 30 years of age.
+select ids from employee_data WHERE age > 30;
+2.	Write the SELECT statement to extract the first and last names of all web designers.
+select f_name, l_name from employee_data where title = "Web Designer";
+3.	What will the following SELECT statement display: 
+SELECT * from employee_data where salary <=100000;
+4.	How will you display the salaries and perks for employees who have more than $16000 as perks?
+select salary, perks from employee_data where perks > 16000;
+5.	List all employee names (last name followed by first name) who hold the title of Marketing Executive.
+select l_name ||''|| f_name as full_name from employee_data WHERE title = 'MARKETING EXECUTIVE';
