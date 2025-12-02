@@ -1,0 +1,4 @@
+1.	List all employees ids and birth dates who were born before 1965.
+SELECT e_id, birth_date FROM employee_per WHERE birth_date < '1965-01-01';
+2.	Display Ids and birth dates of employees born in and between 1970 and 1972.
+SELECT e_id, birth_date FROM employee_per WHERE birth_date >= '1970-01-01' AND birth_date <= '1972-12-31';
