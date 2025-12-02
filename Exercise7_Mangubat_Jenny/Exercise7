@@ -1,0 +1,2 @@
+4.	What does the following statement display?
+Select emp_id, age, perks from employee_data ORDER BY perks DESC LIMIT 10;
