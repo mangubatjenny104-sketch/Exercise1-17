@@ -1,0 +1,8 @@
+1.	List all employee who hold the titles of “Senior Programmer” and “Multimedia Programmer”.
+SELECT f_name, l_name, salary from employee_data WHERE salary BETWEEN 70000 AND 90000;
+2.	List all employee names with salaries for employees who draw between $70000 and $90000.
+SELECT f_name, l_name from employee_data WHERE title IN ('Senior Programmer', 'Multimedia Programmer');
+3.	What will the following statement display?
+SELECT f_name, l_name, title from employee_data  WHERE title NOT IN (‘Programmer’, ‘Senior Programmer’, ‘Multimedia Programmer’);
+4.	Her is a more complex statement that combines both BETWEEN and IN. What will it display?
+SELECT f_name, l_name, title, age from employee_data WHERE title NOT IN (‘Programmer’, ‘Senior Programmer’, ‘Multimedia Programmer’) AND age NOT BETWEEN 28 and 32;
